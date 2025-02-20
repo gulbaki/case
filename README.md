@@ -48,7 +48,7 @@ php bin/console doctrine:fixtures:load
 ### **1️⃣ Create a New Order**
 #### **Endpoint:**
 ```http
-POST /api/orders
+POST /orders
 ```
 #### **Request Payload:**
 ```json
@@ -85,7 +85,7 @@ POST /api/orders
 ### **2️⃣ List All Orders**
 #### **Endpoint:**
 ```http
-GET /api/orders
+GET /orders
 ```
 #### **Response:**
 ```json
@@ -111,7 +111,7 @@ GET /api/orders
 ### **3️⃣ Delete an Order**
 #### **Endpoint:**
 ```http
-DELETE /api/orders/{orderId}
+DELETE /orders/{orderId}
 ```
 #### **Response:**
 ```json
@@ -126,7 +126,7 @@ DELETE /api/orders/{orderId}
 ### **1️⃣ Calculate Discounts for an Order**
 #### **Endpoint:**
 ```http
-POST /api/discounts/calculate
+POST /discounts/calculate
 ```
 #### **Request Payload:**
 ```json
